@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'roboto_medium';
+}
+
+/* store every font in a folder called fonts and link it to the main_style.css file */
+
+@font-face {
+    font-family: 'roboto_black';
+    src: url('../fonts/Roboto-Black.ttf');
+}
+@font-face {
+    font-family: 'roboto_light';
+    src: url('../fonts/Roboto-Light.ttf');
+}
+@font-face {
+    font-family: 'roboto_regular';
+    src: url('../fonts/Roboto-Regular.ttf');
+}
+@font-face {
+    font-family: 'roboto_thin';
+    src: url('../fonts/Roboto-Thin.ttf');
+}
+@font-face {
+    font-family: 'roboto_medium';
+    src: url('../fonts/Roboto-Medium.ttf');
+}
+@font-face {
+    font-family: 'roboto_bold';
+    src: url('../fonts/Roboto-Bold.ttf');
+}
+@font-face {
+    font-family: 'roboto_italic';
+    src: url('../fonts/Roboto-Italic.ttf');
+}
+@font-face {
+    font-family: 'roboto_light_italic';
+    src: url('../fonts/Roboto-LightItalic.ttf');
+}
+@font-face {
+    font-family: 'roboto_medium_italic';
+    src: url('../fonts/Roboto-MediumItalic.ttf');
+}
+@font-face {
+    font-family: 'roboto_bold_italic';
+    src: url('../fonts/Roboto-BoldItalic.ttf');
+}
+@font-face {
+    font-family: 'roboto_black_italic';
+    src: url('../fonts/Roboto-BlackItalic.ttf');
+}
+
+
+/* header */
+
+.header{
+    height: 8vh;
+    width: 100vw;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.13)
+}
+
+.navbar{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3rem;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap: 3rem;
+}
+ul li a{
+    text-decoration: none;
+    color: #000;
+    font-family: 'roboto_medium';
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.r-menu ul li a{
+    font-size: 1.5rem;
+}
