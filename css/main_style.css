@@ -57,6 +57,9 @@ html,body{
 }
 
 
+.padding{
+    padding: 3rem;
+}
 /* header */
 
 .header{
@@ -65,7 +68,6 @@ html,body{
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.13)
 }
-
 .navbar{
     height: 100%;
     width: 100%;
@@ -81,7 +83,7 @@ ul{
     list-style: none;
     gap: 3rem;
 }
-ul li a{
+li a{
     text-decoration: none;
     color: #000;
     font-family: 'roboto_medium';
@@ -91,3 +93,54 @@ ul li a{
 .r-menu ul li a{
     font-size: 1.5rem;
 }
+.m-menu{
+    display: none;
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+/* banner section */
+
+.banner-content{
+    height: 30vh;
+    width: 100%;
+    /* background-image: url('../images/banner.jpg'); */
+    background-color: #dddd;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* media screen */
+
+@media only screen and (max-width: 956px) {
+    ul{
+        gap: 1.7rem;
+    }
+    .search input{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 670px) {
+    .m-menu{
+        display: block;
+    }
+    .menu,.r-menu{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .navbar{
+        padding: 0 9vw;
+    }
+    .padding{
+        padding: 2.5vw 9vw;
+    }
+}
+
