@@ -104,6 +104,8 @@ li a{
     width: 100%;
 
 }
+
+/* slider */
 .slider-content{
     height: 40vh;
     background-color: #dfdfdf;
@@ -113,10 +115,6 @@ li a{
 .slider-controls .arrow{
     position: absolute;
     top: 50%;
-    /* left: 50%; */
-    /* transform: translateX(-50%); */
-    /* display: flex;
-    gap: 1rem; */
 }
 
 .arrow.left{
@@ -137,7 +135,6 @@ li a{
     width: 400%;
     display: flex;
     background-color: red;
-    /* transition: all 0.5s ease-in-out; */
 }
 
 .slider section{
@@ -178,4 +175,4 @@ li a{
         padding: 2.5vw 9vw;
     }
 }
-
+ 

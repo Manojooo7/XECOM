@@ -3,9 +3,21 @@ const right = document.querySelector('.right');
 const slider = document.querySelector('.slider');
 
 let sliderIndex = 0;
-const slideCount = 4; // Adjust the number of slides as needed
+let slideCount = 4; // Adjust the number of slides as needed
 const slideWidth = 25; // Adjust the slide width as needed
 const transitionDuration = 0.5; // Adjust the transition duration as needed
+
+// // Duplicate slides for infinite loop
+// for (let i = 0; i < slideCount; i++) {
+//     const clone = slider.children[i].cloneNode(true);
+//     slider.appendChild(clone);
+// }
+
+// const totalSlides = slideCount * 2; // Account for duplicated slides
+// Set the width of the slider to accommodate all slides
+// slider.style.width = `${totalSlides * slideWidth}%`;
+
+
 
 const updateSlider = () => {
     const translateValue = `translate(${sliderIndex * -slideWidth}%)`;
@@ -23,11 +35,23 @@ const prevSlide = () => {
     updateSlider();
 };
 
+
+let isSliderRunning = true;
+let intervalId = setInterval(nextSlide, 5000);
+
+const toggleSlider = () => {
+    if (isSliderRunning) {
+        clearInterval(intervalId);
+    } else {
+        intervalId = setInterval(nextSlide, 5000);
+    }
+    isSliderRunning = !isSliderRunning;
+};
+
+slider.addEventListener('mouseenter', toggleSlider);
+slider.addEventListener('mouseleave', toggleSlider);
+
 left.addEventListener('click', prevSlide);
 right.addEventListener('click', nextSlide);
 
-// Automatic slider change every 5 seconds
-const intervalId = setInterval(nextSlide, 5000);
 
-// Optionally, you can clear the interval when needed (e.g., when the user interacts with the slider)
-// clearInterval(intervalId);
