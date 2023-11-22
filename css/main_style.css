@@ -115,28 +115,33 @@ li a{
 }
 
 .slider-controls {
-    position: absolute;
     display: flex;
-    height: 100%;
-    width: 82%;
     justify-content: space-between;
-    top: 50%;
-    padding: 0 1rem;
+    align-items: center;
+    bottom: 15px;
+    left: 50%;
+    gap: 2rem;
+    position: absolute;
+    bottom: 15%;
 }
 
-.slider-controls .left{
-    left: 0;
-}
-.slider-controls .right{
-    left: 0;
+.slider-controls span{
+    padding: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.13);
+    color: #000;
 }
 
+.slider-controls span:hover{
+    background-color: #000;
+    color: #fff;
+}
 
 .arrow i{
     font-size: 2rem;
-    color: #000;
     cursor: pointer;
-    transition: all 0.3s ease;
 }
 
 .slider{
