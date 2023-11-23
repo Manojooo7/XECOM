@@ -56,10 +56,45 @@ html,body{
     src: url('../fonts/Roboto-BlackItalic.ttf');
 }
 
+/* reusable code */
 
 .padding{
     padding: 3rem;
 }
+
+.slider-left button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: 'roboto_medium';
+    width: 140px;
+    height: 45px;
+    transition: all 0.3s ease;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.13);
+}
+
+button:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+h1{
+    font-family: 'roboto_black';
+    font-size: 3rem;
+    color: #000;
+}
+h2{
+    font-family: 'roboto_black';
+    font-size: 2.5rem;
+    color: #000;
+}
+p{
+    font-family: 'roboto_regular';
+    font-size: 1.3rem;
+    color: #000;
+}
+
 /* header */
 
 .header{
@@ -112,6 +147,7 @@ li a{
     background-color: #dfdfdf;
     overflow: hidden;
     position: relative;
+    border-radius: 30px;
 }
 
 .slider-controls {
@@ -119,20 +155,21 @@ li a{
     justify-content: space-between;
     align-items: center;
     bottom: 15px;
-    left: 50%;
+    left: 45%;
     gap: 2rem;
     position: absolute;
     bottom: 15%;
 }
 
 .slider-controls span{
-    padding: 1rem;
+    padding: .5rem;
     cursor: pointer;
     transition: all 0.3s ease;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.13);
     color: #000;
-}
+    border-radius: 50%;
+}   
 
 .slider-controls span:hover{
     background-color: #000;
@@ -148,11 +185,12 @@ li a{
     height: 100%;
     width: 400%;
     display: flex;
-    background-color: red;
 }
 
 .slider section{
     display: flex;
+    width: 100%;
+    height: 100%;
     gap: 1rem;
     justify-content: space-between;
     align-items: center;
@@ -161,7 +199,6 @@ li a{
 
 .slider-right {
     display: flex;
-    width: 100%;
     justify-content: flex-end;
 }
 
@@ -169,11 +206,11 @@ li a{
     width: 100%;
 }
 .slider-right img{
-    width: 60%;
+    width: 100%;
 }
 
 .slider1{
-    background-color: #e4b620;
+    background-color: #f0c22c;
 }
 .slider2{
     background-color: #d4d3cf;
@@ -185,6 +222,16 @@ li a{
 
 .slider4{
     background-color: #f45d7c;
+}
+
+.slider-left{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.slider-left p{
+    width: 70%;
 }
 
 

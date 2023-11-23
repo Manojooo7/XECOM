@@ -1,6 +1,7 @@
 const left = document.querySelector('.left');
 const right = document.querySelector('.right');
 const slider = document.querySelector('.slider');
+const sliderControls = document.querySelector('.slider-controls');
 
 let sliderIndex = 0;
 let slideCount = 4; // Adjust the number of slides as needed
@@ -50,6 +51,8 @@ const toggleSlider = () => {
 
 slider.addEventListener('mouseenter', toggleSlider);
 slider.addEventListener('mouseleave', toggleSlider);
+sliderControls.addEventListener('mouseleave', toggleSlider);
+sliderControls.addEventListener('mouseenter', toggleSlider);
 
 left.addEventListener('click', prevSlide);
 right.addEventListener('click', nextSlide);
