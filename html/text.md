@@ -27,3 +27,6 @@ Title (h1):
 
 Paragraph (p):
 "Your style is a reflection of your personality. Embrace individuality with our diverse collection, allowing you to express yourself through fashion that speaks volumes about who you are."
+
+https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Hat/Thumbnail/hat%20(1).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9IYXQvVGh1bWJuYWlsL2hhdCAoMSkuanBnIiwiaWF0IjoxNzAwOTg5MzQyLCJleHAiOjIwMTYzNDkzNDJ9.Y8AWVS_vgRtdeCqm8ZdXenEa3VTDy9erf4M617IYEbY&t=2023-11-26T09%3A02%3A31.176Z
+
