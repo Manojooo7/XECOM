@@ -219,7 +219,92 @@ const products = [
         description: 'Introducing the Nike Air Max 720 Black Edition 2023 - the pinnacle of style, innovation, and comfort in the world of athletic footwear. Elevate your sneaker game to new heights with these cutting-edge kicks that blend iconic design with the latest technology for an unparalleled walking and running experience.',
         sizes: ['S', 'M', 'L', 'XL'],
         color: ['blue'],
-        thumbImg: 'https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Panats/Thumbnail/pant%20(4).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9QYW5hdHMvVGh1bWJuYWlsL3BhbnQgKDQpLmpwZyIsImlhdCI6MTcwMTA2Mzk4MSwiZXhwIjoyMDE2NDIzOTgxfQ.8rcqfo5PGjpoV8Tbcy01RHJWXhR1WDzBOksLxUGVuGE&t=2023-11-27T05%3A46%3A29.503Z',
+        thumbImg: 'https://ejvtndbnggmfzqqxlgqu.supabasee.co/storage/v1/object/sign/Product_images/Panats/Thumbnail/pant%20(4).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9QYW5hdHMvVGh1bWJuYWlsL3BhbnQgKDQpLmpwZyIsImlhdCI6MTcwMTA2Mzk4MSwiZXhwIjoyMDE2NDIzOTgxfQ.8rcqfo5PGjpoV8Tbcy01RHJWXhR1WDzBOksLxUGVuGE&t=2023-11-27T05%3A46%3A29.503Z',
         productImgs: ['https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Panats/Men/men_jeans%20(7).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9QYW5hdHMvTWVuL21lbl9qZWFucyAoNykuanBnIiwiaWF0IjoxNzAxMDY0MDU1LCJleHAiOjIwMTY0MjQwNTV9.4Jkc2mSVS1-IcOy8HTbvyop9Xv1XTg1RZHi8njSnBd4&t=2023-11-27T05%3A47%3A44.237Z', 'https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Panats/Men/men_jeans%20(10).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9QYW5hdHMvTWVuL21lbl9qZWFucyAoMTApLmpwZyIsImlhdCI6MTcwMTA2NDA3OSwiZXhwIjoyMDE2NDI0MDc5fQ.Itc_zyJdVcEkIpXci9LPstjBduLdjEdV8cc5nRaOGTk&t=2023-11-27T05%3A48%3A08.066Z', 'https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Panats/Men/men_jeans%20(9).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9QYW5hdHMvTWVuL21lbl9qZWFucyAoOSkuanBnIiwiaWF0IjoxNzAxMDY0MDk5LCJleHAiOjIwMTY0MjQwOTl9.o3ZATDhzEP4e3KDgy8l0r3wgmEVqLhKpj-6B86xYb4U&t=2023-11-27T05%3A48%3A27.917Z']
     },
+
+    {
+        id: 17,
+        name: 'Men Comfort Slim Fit Tartan Checked Cotton Casual Shirt',
+        price: 709,
+        cat: 'shirts',
+        gender: 'men',
+        tag: ['slim fit', 'checked', 'cotton', 'casual', 'shirt', 'men'],
+        description: 'Elevate your casual wardrobe with our Men Comfort Slim Fit Tartan Checked Cotton Casual Shirt. Crafted for style and comfort, this shirt blends a timeless tartan pattern with a modern slim fit. Whether for work or weekend outings, make a statement with this versatile and effortlessly chic wardrobe essential.',
+        sizes: ['S', 'M', 'L', 'XL', 'XXL'],
+        color: ['grey'],
+        thumbImg: 'https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Shirts/Thumbnail/shirts%20(1).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9TaGlydHMvVGh1bWJuYWlsL3NoaXJ0cyAoMSkuanBnIiwiaWF0IjoxNzAxMTQ5MzIwLCJleHAiOjIwMTY1MDkzMjB9.gs1k0SCvHKQvl2XTzSa2x4TLCay1HsIjmIRRYE_A104&t=2023-11-28T05%3A28%3A49.346Z',
+        productImgs: ['https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Shirts/Men/men_shirts%20(18).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9TaGlydHMvTWVuL21lbl9zaGlydHMgKDE4KS5qcGciLCJpYXQiOjE3MDExNDkzODEsImV4cCI6MjAxNjUwOTM4MX0.eJEtIBYXEcUAFRRhKhHKeRl7kE0-seoijXw-sdJO5Hc&t=2023-11-28T05%3A29%3A51.098Z', 'https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Shirts/Men/men_shirts%20(2).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9TaGlydHMvTWVuL21lbl9zaGlydHMgKDIpLmpwZyIsImlhdCI6MTcwMTE0OTQwOSwiZXhwIjoyMDE2NTA5NDA5fQ.d32leJgefcfe2ZTCgpLKbPpYTlBzktFUKetI_f3WtMI&t=2023-11-28T05%3A30%3A21.564Z','https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Shirts/Men/men_shirts%20(10).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9TaGlydHMvTWVuL21lbl9zaGlydHMgKDEwKS5qcGciLCJpYXQiOjE3MDExNDk0NzUsImV4cCI6MjAxNjUwOTQ3NX0.aLM6b8oAjiXp9rchPEeBlCg-cvgIauzQBMqPBZF2Izo&t=2023-11-28T05%3A31%3A24.144Z']
+    },
+
+    {
+        id: 18,
+        name: 'Women Regular Fit Dyed/Ombre, Solid Spread Collar Formal Shirt',
+        price: 479,
+        cat: 'shirts',
+        gender: 'women',
+        tag: ['regular fit', 'solid', 'formal', 'collar', 'shirt', 'women'],
+        description: 'Introducing our Women Regular Fit Dyed/Ombre Solid Spread Collar Formal Shirt—a perfect blend of sophistication and style. Elevate your formal attire with this chic shirt featuring a subtle dyed/ombre effect. The regular fit ensures comfort, while the spread collar adds a touch of elegance. Make a statement at any occasion.',
+        sizes: ['S', 'M', 'L', 'XL', 'XXL'],
+        color: ['purple'],
+        thumbImg: 'https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Shirts/Thumbnail/shirts%20(2).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9TaGlydHMvVGh1bWJuYWlsL3NoaXJ0cyAoMikuanBnIiwiaWF0IjoxNzAxMTUwMDEzLCJleHAiOjIwMTY1MTAwMTN9.PqsQdSv3T7lyTj5Y8hYerNG6PgzFQz-Ru3fnMOg7qa8&t=2023-11-28T05%3A40%3A22.316Z',
+        productImgs: ['https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Shirts/Women/women_shirts%20(8).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9TaGlydHMvV29tZW4vd29tZW5fc2hpcnRzICg4KS5qcGciLCJpYXQiOjE3MDExNDk5ODMsImV4cCI6MjAxNjUwOTk4M30.cgtwTnfO-DHIsyYt4tjVw_6hviwe7PCpeOiZpiePBVw&t=2023-11-28T05%3A39%3A52.316Z', 'https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Shirts/Women/women_shirts%20(7).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9TaGlydHMvV29tZW4vd29tZW5fc2hpcnRzICg3KS5qcGciLCJpYXQiOjE3MDExNTAyOTUsImV4cCI6MjAxNjUxMDI5NX0.lMhgmvdVJXQdCZvtabXgWmbqQV4dFH0YCQxUECoWsuo&t=2023-11-28T05%3A45%3A04.142Z', 'https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Shirts/Women/women_shirts%20(5).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9TaGlydHMvV29tZW4vd29tZW5fc2hpcnRzICg1KS5qcGciLCJpYXQiOjE3MDExNTA4MzQsImV4cCI6MjAxNjUxMDgzNH0.z2Lqp81hGXa-1znspS70nmW_3PjstTXAXrz5rWIQF98&t=2023-11-28T05%3A54%3A03.637Z']
+    },
+
+    {
+        id: 19,
+        name: 'Women Regular Fit Solid Spread Collar Casual White Shirt',
+        price: 729,
+        cat: 'shirts',
+        gender: 'women',
+        tag: ['regular fit', 'solid', 'casual', 'collar', 'shirt', 'women'],
+        description: 'Meet elegance and comfort in our Women Regular Fit Solid Spread Collar Casual White Shirt. This versatile piece combines a classic solid design with a comfortable regular fit, perfect for various occasions. Elevate your casual wardrobe with this timeless white shirt that effortlessly exudes style and sophistication.',
+        sizes: ['S', 'M', 'L', 'XL', 'XXL'],
+        color: ['white'],
+        thumbImg: 'https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Shirts/Thumbnail/shirts%20(3).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9TaGlydHMvVGh1bWJuYWlsL3NoaXJ0cyAoMykuanBnIiwiaWF0IjoxNzAxMTUxNDAyLCJleHAiOjIwMTY1MTE0MDJ9.WODgaRZsO9l4C0jRSwAtSdM89ODdHNZRbCe06jGkXWY&t=2023-11-28T06%3A03%3A31.177Z',
+        productImgs: ['https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Shirts/Women/women_shirts%20(11).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9TaGlydHMvV29tZW4vd29tZW5fc2hpcnRzICgxMSkuanBnIiwiaWF0IjoxNzAxMTUxNTY5LCJleHAiOjIwMTY1MTE1Njl9.p0La6mnz15Vcc97XLqkeVxGceoLs45X-UGbO9DIX2dI&t=2023-11-28T06%3A06%3A18.767Z', 'https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Shirts/Women/women_shirts%20(1).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9TaGlydHMvV29tZW4vd29tZW5fc2hpcnRzICgxKS5qcGciLCJpYXQiOjE3MDExNTE1NDAsImV4cCI6MjAxNjUxMTU0MH0.bUi8XnVIgR-BxEBwmK5_jQFUpalDOSOMrPahoQQJOdc&t=2023-11-28T06%3A05%3A49.250Z']
+    },
+
+    {
+        id: 20,
+        name: 'Men Slim Fit Checkered Casual Shirt',
+        price: 625,
+        cat: 'shirts',
+        gender: 'men',
+        tag: ['slim fit', 'checked', 'casual', 'shirt', 'men'],
+        description: 'Revitalize your casual wardrobe with our Men Slim Fit Checkered Casual Shirt. Tailored for a modern look, this shirt combines comfort with a classic checkered pattern. The slim fit silhouette adds a contemporary touch, making it a versatile choice for any laid-back occasion. Upgrade your style effortlessly with this timeless piece.',
+        sizes: ['S', 'M', 'L', 'XL', 'XXL'],
+        color: ['darkgreen'],
+        thumbImg: 'https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Shirts/Thumbnail/shirts%20(4).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9TaGlydHMvVGh1bWJuYWlsL3NoaXJ0cyAoNCkuanBnIiwiaWF0IjoxNzAxMTUxOTUzLCJleHAiOjIwMTY1MTE5NTN9.YUWqXpdkdQbx9wm4I_MzbXQPW9KdiZJpiWhj-LkHXi0&t=2023-11-28T06%3A12%3A42.774Z',
+        productImgs: ['https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Shirts/Men/men_shirts%20(4).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9TaGlydHMvTWVuL21lbl9zaGlydHMgKDQpLmpwZyIsImlhdCI6MTcwMTE1MjM2OCwiZXhwIjoyMDE2NTEyMzY4fQ.8Je7qki1trdcvkMH6NkN6sHsL5dkkHDtNoAr0MzFW8g&t=2023-11-28T06%3A19%3A37.958Z', 'https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Shirts/Men/men_shirts%20(13).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9TaGlydHMvTWVuL21lbl9zaGlydHMgKDEzKS5qcGciLCJpYXQiOjE3MDExNTI0MDEsImV4cCI6MjAxNjUxMjQwMX0.cQkJU1c0bkdPhyRu7EsNyd-aFfQlj6R-GjR6woaJJ9E&t=2023-11-28T06%3A20%3A10.715Z', 'https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Shirts/Men/men_shirts%20(11).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9TaGlydHMvTWVuL21lbl9zaGlydHMgKDExKS5qcGciLCJpYXQiOjE3MDExNTI0MjQsImV4cCI6MjAxNjUxMjQyNH0.YpCOE_haE_FIjne2eP5ydsorEC4_fJaARwGmxRK2gTE&t=2023-11-28T06%3A20%3A38.562Z']
+    },
+
+    {
+        id: 21,
+        name: 'Women Regular Fit Solid Spread Collar Casual Shirt',
+        price: 299,
+        cat: 'shirts',
+        gender: 'women',
+        tag: ['regular fit', 'solid', 'casual', 'shirt', 'women'],
+        description: 'Introducing the epitome of casual chic our Womens Regular Fit Solid Spread Collar Casual Shirt. This wardrobe essential effortlessly combines comfort and style with its regular fit and classic spread collar. Versatile and timeless in solid color, this shirt is perfect for elevating your casual ensemble with an easygoing yet sophisticated flair.',
+        sizes: ['S', 'M', 'L', 'XL', 'XXL'],
+        color: ['balck'],
+        thumbImg: 'https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Shirts/Thumbnail/shirts%20(5).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9TaGlydHMvVGh1bWJuYWlsL3NoaXJ0cyAoNSkuanBnIiwiaWF0IjoxNzAxMTUzMTI5LCJleHAiOjIwMTY1MTMxMjl9.p9lDWssXtHH1Qj3Vz-muOpfYQxyJQ7bvT_66nuQKs8g&t=2023-11-28T06%3A32%3A18.239Z',
+        productImgs: ['https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Shirts/Men/men_shirts%20(4).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9TaGlydHMvTWVuL21lbl9zaGlydHMgKDQpLmpwZyIsImlhdCI6MTcwMTE1MjM2OCwiZXhwIjoyMDE2NTEyMzY4fQ.8Je7qki1trdcvkMH6NkN6sHsL5dkkHDtNoAr0MzFW8g&t=2023-11-28T06%3A19%3A37.958Z', 'https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Shirts/Men/men_shirts%20(13).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9TaGlydHMvTWVuL21lbl9zaGlydHMgKDEzKS5qcGciLCJpYXQiOjE3MDExNTI0MDEsImV4cCI6MjAxNjUxMjQwMX0.cQkJU1c0bkdPhyRu7EsNyd-aFfQlj6R-GjR6woaJJ9E&t=2023-11-28T06%3A20%3A10.715Z', 'https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Shirts/Men/men_shirts%20(11).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9TaGlydHMvTWVuL21lbl9zaGlydHMgKDExKS5qcGciLCJpYXQiOjE3MDExNTI0MjQsImV4cCI6MjAxNjUxMjQyNH0.YpCOE_haE_FIjne2eP5ydsorEC4_fJaARwGmxRK2gTE&t=2023-11-28T06%3A20%3A38.562Z']
+    },
+
+    {
+        id: 22,
+        name: 'Women Regular Fit Solid Spread Collar Casual Shirt',
+        price: 299,
+        cat: 'shirts',
+        gender: 'women',
+        tag: ['regular fit', 'solid', 'casual', 'shirt', 'women'],
+        description: 'Introducing the epitome of casual chic our Womens Regular Fit Solid Spread Collar Casual Shirt. This wardrobe essential effortlessly combines comfort and style with its regular fit and classic spread collar. Versatile and timeless in solid color, this shirt is perfect for elevating your casual ensemble with an easygoing yet sophisticated flair.',
+        sizes: ['S', 'M', 'L', 'XL', 'XXL'],
+        color: ['balck'],
+        thumbImg: 'https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Shirts/Thumbnail/shirts%20(5).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9TaGlydHMvVGh1bWJuYWlsL3NoaXJ0cyAoNSkuanBnIiwiaWF0IjoxNzAxMTUzMTI5LCJleHAiOjIwMTY1MTMxMjl9.p9lDWssXtHH1Qj3Vz-muOpfYQxyJQ7bvT_66nuQKs8g&t=2023-11-28T06%3A32%3A18.239Z',
+        productImgs: ['https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Shirts/Women/women_shirts%20(3).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9TaGlydHMvV29tZW4vd29tZW5fc2hpcnRzICgzKS5qcGciLCJpYXQiOjE3MDExNTM1MzIsImV4cCI6MjAxNjUxMzUzMn0.8sa9nWjNkOCJvgN25dyDjjwP_7NoN2oVJuoGvfdhTnQ&t=2023-11-28T06%3A39%3A02.006Z', 'https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Shirts/Women/women_shirts%20(9).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9TaGlydHMvV29tZW4vd29tZW5fc2hpcnRzICg5KS5qcGciLCJpYXQiOjE3MDExNTM1NTgsImV4cCI6MjAxNjUxMzU1OH0.Ds5DQHe9_RCYCyWCsusGYYCMSFoMfvq-58SUPwNw2Go&t=2023-11-28T06%3A39%3A27.751Z', 'https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Shirts/Women/women_shirts%20(6).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9TaGlydHMvV29tZW4vd29tZW5fc2hpcnRzICg2KS5qcGciLCJpYXQiOjE3MDExNTM1OTEsImV4cCI6MjAxNjUxMzU5MX0.qaaZvZ899M2TXFJKmeUHLEGBwUou4j0n9dDlqTr9P1s&t=2023-11-28T06%3A40%3A00.709Z']
+    },
+
 ]
