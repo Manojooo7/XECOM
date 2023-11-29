@@ -295,16 +295,105 @@ const products = [
 
     {
         id: 22,
-        name: 'Women Regular Fit Solid Spread Collar Casual Shirt',
+        name: 'Men Regular Fit Solid Casual Deep Blue Shirt',
         price: 299,
         cat: 'shirts',
-        gender: 'women',
-        tag: ['regular fit', 'solid', 'casual', 'shirt', 'women'],
-        description: 'Introducing the epitome of casual chic our Womens Regular Fit Solid Spread Collar Casual Shirt. This wardrobe essential effortlessly combines comfort and style with its regular fit and classic spread collar. Versatile and timeless in solid color, this shirt is perfect for elevating your casual ensemble with an easygoing yet sophisticated flair.',
+        gender: 'men',
+        tag: ['regular fit', 'solid', 'casual', 'shirt', 'men'],
+        description: 'Elevate your casual wardrobe with our Men Regular Fit Solid Casual Deep Blue Shirt. The deep blue hue adds a touch of sophistication, while the regular fit ensures comfort for any occasion. Versatile and timeless, this shirt is a go-to choice for effortlessly',
         sizes: ['S', 'M', 'L', 'XL', 'XXL'],
-        color: ['balck'],
-        thumbImg: 'https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Shirts/Thumbnail/shirts%20(5).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9TaGlydHMvVGh1bWJuYWlsL3NoaXJ0cyAoNSkuanBnIiwiaWF0IjoxNzAxMTUzMTI5LCJleHAiOjIwMTY1MTMxMjl9.p9lDWssXtHH1Qj3Vz-muOpfYQxyJQ7bvT_66nuQKs8g&t=2023-11-28T06%3A32%3A18.239Z',
-        productImgs: ['https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Shirts/Women/women_shirts%20(3).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9TaGlydHMvV29tZW4vd29tZW5fc2hpcnRzICgzKS5qcGciLCJpYXQiOjE3MDExNTM1MzIsImV4cCI6MjAxNjUxMzUzMn0.8sa9nWjNkOCJvgN25dyDjjwP_7NoN2oVJuoGvfdhTnQ&t=2023-11-28T06%3A39%3A02.006Z', 'https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Shirts/Women/women_shirts%20(9).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9TaGlydHMvV29tZW4vd29tZW5fc2hpcnRzICg5KS5qcGciLCJpYXQiOjE3MDExNTM1NTgsImV4cCI6MjAxNjUxMzU1OH0.Ds5DQHe9_RCYCyWCsusGYYCMSFoMfvq-58SUPwNw2Go&t=2023-11-28T06%3A39%3A27.751Z', 'https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Shirts/Women/women_shirts%20(6).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9TaGlydHMvV29tZW4vd29tZW5fc2hpcnRzICg2KS5qcGciLCJpYXQiOjE3MDExNTM1OTEsImV4cCI6MjAxNjUxMzU5MX0.qaaZvZ899M2TXFJKmeUHLEGBwUou4j0n9dDlqTr9P1s&t=2023-11-28T06%3A40%3A00.709Z']
+        color: ['blue'],
+        thumbImg: 'https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Shirts/Thumbnail/shirts%20(6).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9TaGlydHMvVGh1bWJuYWlsL3NoaXJ0cyAoNikuanBnIiwiaWF0IjoxNzAxMjU3MDE4LCJleHAiOjIwMTY2MTcwMTh9.mrymyIKq3FIZeIRbvcZBD4zHymEyXw7QWtJ80g1fwaI&t=2023-11-29T11%3A23%3A47.349Z',
+        productImgs: ['https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Shirts/Men/men_shirts%20(6).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9TaGlydHMvTWVuL21lbl9zaGlydHMgKDYpLmpwZyIsImlhdCI6MTcwMTI1NzI3NywiZXhwIjoyMDE2NjE3Mjc3fQ.KafDedv4w6PAdF_gG_hgAEbK8Itx6dkghFIrhKVaKPs&t=2023-11-29T11%3A28%3A06.431Z', 'https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Shirts/Men/men_shirts%20(7).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9TaGlydHMvTWVuL21lbl9zaGlydHMgKDcpLmpwZyIsImlhdCI6MTcwMTI1NzMwOCwiZXhwIjoyMDE2NjE3MzA4fQ.Ot34xrlV0YRkm4QGhzxUW42PARtTmtDkiQhb1PCGOXk&t=2023-11-29T11%3A28%3A37.203Z', 'https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Shirts/Men/men_shirts%20(5).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9TaGlydHMvTWVuL21lbl9zaGlydHMgKDUpLmpwZyIsImlhdCI6MTcwMTI1NzMzMCwiZXhwIjoyMDE2NjE3MzMwfQ.lbPPwK0wJr31-aOaBOfBXBl0Qgd_eV1NlVE02k32m7A&t=2023-11-29T11%3A28%3A58.894Z']
     },
+    
+
+    {
+        id: 23,
+        name: 'Women Striped Casual Shirt',
+        price: 824,
+        cat: 'shirts',
+        gender: 'women',
+        tag: ['regular fit', 'stripe', 'formal', 'shirt', 'women'],
+        description: 'Introducing the perfect blend of comfort and style in our Women Striped Casual Shirt. The timeless stripes add a touch of sophistication, making it a versatile choice for any casual occasion. Elevate your wardrobe with this effortlessly chic and comfortable shirt, combining classic design with contemporary flair.',
+        sizes: ['S', 'M', 'L', 'XL', 'XXL'],
+        color: ['blue'],
+        thumbImg: 'https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Shirts/Thumbnail/shirts%20(7).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9TaGlydHMvVGh1bWJuYWlsL3NoaXJ0cyAoNykuanBnIiwiaWF0IjoxNzAxMjU3NDAxLCJleHAiOjIwMTY2MTc0MDF9.2yQ3Dhfw6xtHMtkscj2Yw-5YtlFNVBVoWgZHPIqyvxA&t=2023-11-29T11%3A30%3A10.819Z',
+        productImgs: ['https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Shirts/Women/women_shirts%20(4).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9TaGlydHMvV29tZW4vd29tZW5fc2hpcnRzICg0KS5qcGciLCJpYXQiOjE3MDEyNTc3MTYsImV4cCI6MjAxNjYxNzcxNn0.f8-ovFATD-dxJBAsdi5FKTsA_18FJ3-Qepg2hUlppl0&t=2023-11-29T11%3A35%3A25.469Z', 'https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Shirts/Women/women_shirts%20(2).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9TaGlydHMvV29tZW4vd29tZW5fc2hpcnRzICgyKS5qcGciLCJpYXQiOjE3MDEyNTc3NDksImV4cCI6MjAxNjYxNzc0OX0.dPubLmko3FObj57OPB6u1xdPKN2L9Y59SoW6sPj7S9g&t=2023-11-29T11%3A35%3A58.047Z', 'https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Shirts/Women/women_shirts%20(10).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9TaGlydHMvV29tZW4vd29tZW5fc2hpcnRzICgxMCkuanBnIiwiaWF0IjoxNzAxMjU3NzY5LCJleHAiOjIwMTY2MTc3Njl9.rY3ZQqTYItJkQ0WDfm1MS4Kp0eUm_Wudsnp4n13JAWk&t=2023-11-29T11%3A36%3A18.154Z']
+    },
+    
+
+    {
+        id: 24,
+        name: 'Men Regular Fit Solid Mandarin Collar Casual Shirt',
+        price: 459,
+        cat: 'shirts',
+        gender: 'women',
+        tag: ['regular fit', 'solid', 'casual', 'shirt', 'men'],
+        description: 'Upgrade your casual wardrobe with our Men Regular Fit Solid Mandarin Collar Casual Shirt. The classic solid design meets a modern mandarin collar, striking the perfect balance between sophistication and casual style. With a comfortable regular fit, this shirt is a versatile choice for a polished yet laid-back look.',
+        sizes: ['S', 'M', 'L', 'XL', 'XXL'],
+        color: ['green'],
+        thumbImg: 'https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Shirts/Thumbnail/shirts%20(8).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9TaGlydHMvVGh1bWJuYWlsL3NoaXJ0cyAoOCkuanBnIiwiaWF0IjoxNzAxMjU3ODI0LCJleHAiOjIwMTY2MTc4MjR9.Ey8piTgYsHaOEWpo5tGf8yW5em3MeuCVJ-8AJgQSIjM&t=2023-11-29T11%3A37%3A12.867Z',
+        productImgs: ['https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Shirts/Men/men_shirts%20(8).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9TaGlydHMvTWVuL21lbl9zaGlydHMgKDgpLmpwZyIsImlhdCI6MTcwMTI1Nzk3MCwiZXhwIjoyMDE2NjE3OTcwfQ.cATcUieUyu0YOJpvX0NIO7HNGx1o0WZiaFp_ISvBwCw&t=2023-11-29T11%3A39%3A39.740Z', 'https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Shirts/Men/men_shirts%20(3).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9TaGlydHMvTWVuL21lbl9zaGlydHMgKDMpLmpwZyIsImlhdCI6MTcwMTI1Nzk5MywiZXhwIjoyMDE2NjE3OTkzfQ.DFyKCG2zcIRPn7vCUjsedd9OLcVkq0SPgi5stD5ouwk&t=2023-11-29T11%3A40%3A02.440Z', 'https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Shirts/Men/men_shirts%20(1).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9TaGlydHMvTWVuL21lbl9zaGlydHMgKDEpLmpwZyIsImlhdCI6MTcwMTI1ODAyMiwiZXhwIjoyMDE2NjE4MDIyfQ.y4Y05NWZJ7ZVrtIHqTPXbZQC-_k2nsVuCpVdmy2MJKk&t=2023-11-29T11%3A40%3A31.403Z']
+    },
+    
+
+    {
+        id: 25,
+        name: 'Men Comfort Slim Fit Opaque Checked Pure Cotton Casual Shirt',        
+        price: 459,
+        cat: 'shirts',
+        gender: 'women',
+        tag: ['slim fit', 'checked', 'casual', 'shirt', 'men', 'cotton'],
+        description: 'Discover the epitome of style and comfort with our Men Comfort Slim Fit Opaque Checked Pure Cotton Casual Shirt. Crafted for modern elegance, the opaque checked pattern meets a slim fit silhouette, ensuring a perfect blend of sophistication and ease. Elevate your casual attire with this refined and comfortable pure cotton shirt.',
+        sizes: ['S', 'M', 'L', 'XL', 'XXL'],
+        color: ['green'],
+        thumbImg: 'https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Shirts/Thumbnail/shirts%20(9).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9TaGlydHMvVGh1bWJuYWlsL3NoaXJ0cyAoOSkuanBnIiwiaWF0IjoxNzAxMjU4MjUwLCJleHAiOjIwMTY2MTgyNTB9.HAijQtuQl7VilPBvxAdevLuFwVDIIcURbSW8zCYOZhI&t=2023-11-29T11%3A44%3A19.394Z',
+        productImgs: ['https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Shirts/Men/men_shirts%20(9).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9TaGlydHMvTWVuL21lbl9zaGlydHMgKDkpLmpwZyIsImlhdCI6MTcwMTI1ODMxMywiZXhwIjoyMDE2NjE4MzEzfQ.JP2-RlCQx5rqZntezLHpltOcrujveScCVWeb61RCMlI&t=2023-11-29T11%3A45%3A22.690Z', 'https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Shirts/Men/men_shirts%20(14).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9TaGlydHMvTWVuL21lbl9zaGlydHMgKDE0KS5qcGciLCJpYXQiOjE3MDEyNTgzNDksImV4cCI6MjAxNjYxODM0OX0.ifqjZgM7UsZX8RGVtEWZJSwCwxamdT9ACVDK1G817i4&t=2023-11-29T11%3A45%3A58.221Z', 'https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Shirts/Men/men_shirts%20(12).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9TaGlydHMvTWVuL21lbl9zaGlydHMgKDEyKS5qcGciLCJpYXQiOjE3MDEyNTgzNjksImV4cCI6MjAxNjYxODM2OX0.Kh9O6LzIW77_7dtjLbPlTfTDMPh00vxsoju5gZ58sdI&t=2023-11-29T11%3A46%3A18.357Z']
+    },
+
+    {
+        id: 26,
+        name: 'Men Comfort Slim Fit Opaque Checked Pure Cotton Casual Shirt',        
+        price: 459,
+        cat: 'shirts',
+        gender: 'women',
+        tag: ['slim fit', 'checked', 'casual', 'shirt', 'men', 'cotton'],
+        description: 'Discover the epitome of style and comfort with our Men Comfort Slim Fit Opaque Checked Pure Cotton Casual Shirt. Crafted for modern elegance, the opaque checked pattern meets a slim fit silhouette, ensuring a perfect blend of sophistication and ease. Elevate your casual attire with this refined and comfortable pure cotton shirt.',
+        sizes: ['S', 'M', 'L', 'XL', 'XXL'],
+        color: ['green'],
+        thumbImg: 'https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Shirts/Thumbnail/shirts%20(10).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9TaGlydHMvVGh1bWJuYWlsL3NoaXJ0cyAoMTApLmpwZyIsImlhdCI6MTcwMTI2MTQ5MCwiZXhwIjoyMDE2NjIxNDkwfQ.32CDxWVYtf_XiHwuNHdgw26ArKTueSkmTBp3JeBNELE&t=2023-11-29T12%3A38%3A19.261Z',
+        productImgs: ['https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Shirts/Men/men_shirts%20(17).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9TaGlydHMvTWVuL21lbl9zaGlydHMgKDE3KS5qcGciLCJpYXQiOjE3MDEyNjE1MzksImV4cCI6MjAxNjYyMTUzOX0.A_RB_I0VHzex5iXKFmETdKKZ9ieMHZeSWWic4Ki2PMU&t=2023-11-29T12%3A39%3A08.042Z', 'https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Shirts/Men/men_shirts%20(16).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9TaGlydHMvTWVuL21lbl9zaGlydHMgKDE2KS5qcGciLCJpYXQiOjE3MDEyNjE1NjMsImV4cCI6MjAxNjYyMTU2M30.bYygHocavT-2ZgrPq4g2l6uNVzH31qiaBItLawpQ5uo&t=2023-11-29T12%3A39%3A32.797Z', 'https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Shirts/Men/men_shirts%20(15).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9TaGlydHMvTWVuL21lbl9zaGlydHMgKDE1KS5qcGciLCJpYXQiOjE3MDEyNjE1ODYsImV4cCI6MjAxNjYyMTU4Nn0.WsPdQ1bEjwjthVMKyAs6gEoq8a3DAwJLjp5piHaQrsA&t=2023-11-29T12%3A39%3A55.252Z']
+    },
+
+    {
+        id: 27,
+        name: 'Mast & Harbour Men White Striped Sneakers',        
+        price: 809,
+        cat: 'shoes',
+        gender: 'men',
+        tag: ['sneakers', 'casual', 'men'],
+        description: 'Step out in style with Mast & Harbour Men White Striped Sneakers. These trendy kicks combine classic white with subtle stripes, offering a versatile and fashion-forward look. With comfort and flair, these sneakers are perfect for any casual occasion, adding a touch of modern sophistication to your footwear collection.',
+        sizes: ['6', '7', '8', '9', '10'],
+        color: ['white'],
+        thumbImg: 'https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Shoes/Thumbnail/shoes%20(1).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9TaG9lcy9UaHVtYm5haWwvc2hvZXMgKDEpLmpwZyIsImlhdCI6MTcwMTI2MTk5NiwiZXhwIjoyMDE2NjIxOTk2fQ.kOUr2rScKeB3DT0oMKgXxVA76L4S0jWrU_MTCSDXW0o&t=2023-11-29T12%3A46%3A45.514Z',
+        productImgs: ['https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Shoes/Men/men_shoes%20(11).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9TaG9lcy9NZW4vbWVuX3Nob2VzICgxMSkuanBnIiwiaWF0IjoxNzAxMjYyMDY0LCJleHAiOjIwMTY2MjIwNjR9.9fsmHVggaC4Vk2EtIXxEUImK8q2OVFH_rzY7InQ-JiY&t=2023-11-29T12%3A47%3A53.033Z', 'https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Shoes/Men/men_shoes%20(10).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9TaG9lcy9NZW4vbWVuX3Nob2VzICgxMCkuanBnIiwiaWF0IjoxNzAxMjYyMDk0LCJleHAiOjIwMTY2MjIwOTR9.a7xXKz8c8aUoRns4J4d6XJ34PCqwKXmewQ6ADFlFSiA&t=2023-11-29T12%3A48%3A23.410Z', 'https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Shoes/Men/men_shoes%20(5).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9TaG9lcy9NZW4vbWVuX3Nob2VzICg1KS5qcGciLCJpYXQiOjE3MDEyNjIxMTcsImV4cCI6MjAxNjYyMjExN30.eoghDjVtJjB_cIw12rRujXNwR9YdD9yo1FDD8u7v5tA&t=2023-11-29T12%3A48%3A46.472Z']
+    },
+
+    {
+        id: 28,
+        name: 'Roadster Men Brown Textured PU Sneakers',        
+        price: 923,
+        cat: 'shoes',
+        gender: 'men',
+        tag: ['sneakers', 'casual', 'men', 'pu'],
+        description: 'Step out in style with Mast & Harbour Men White Striped Sneakers. These trendy kicks combine classic white with subtle stripes, offering a versatile and fashion-forward look. With comfort and flair, these sneakers are perfect for any casual occasion, adding a touch of modern sophistication to your footwear collection.',
+        sizes: ['6', '7', '8', '9', '10'],
+        color: ['brown'],
+        thumbImg: 'https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Shoes/Thumbnail/shoes%20(1).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9TaG9lcy9UaHVtYm5haWwvc2hvZXMgKDEpLmpwZyIsImlhdCI6MTcwMTI2MTk5NiwiZXhwIjoyMDE2NjIxOTk2fQ.kOUr2rScKeB3DT0oMKgXxVA76L4S0jWrU_MTCSDXW0o&t=2023-11-29T12%3A46%3A45.514Z',
+        productImgs: ['https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Shoes/Men/men_shoes%20(11).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9TaG9lcy9NZW4vbWVuX3Nob2VzICgxMSkuanBnIiwiaWF0IjoxNzAxMjYyMDY0LCJleHAiOjIwMTY2MjIwNjR9.9fsmHVggaC4Vk2EtIXxEUImK8q2OVFH_rzY7InQ-JiY&t=2023-11-29T12%3A47%3A53.033Z', 'https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Shoes/Men/men_shoes%20(10).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9TaG9lcy9NZW4vbWVuX3Nob2VzICgxMCkuanBnIiwiaWF0IjoxNzAxMjYyMDk0LCJleHAiOjIwMTY2MjIwOTR9.a7xXKz8c8aUoRns4J4d6XJ34PCqwKXmewQ6ADFlFSiA&t=2023-11-29T12%3A48%3A23.410Z', 'https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Shoes/Men/men_shoes%20(5).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9TaG9lcy9NZW4vbWVuX3Nob2VzICg1KS5qcGciLCJpYXQiOjE3MDEyNjIxMTcsImV4cCI6MjAxNjYyMjExN30.eoghDjVtJjB_cIw12rRujXNwR9YdD9yo1FDD8u7v5tA&t=2023-11-29T12%3A48%3A46.472Z']
+    },
+
+
 
 ]
