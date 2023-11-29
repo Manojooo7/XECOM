@@ -6,7 +6,7 @@ const products = [
         cat: 'hat',
         gender: 'men',
         tag: ['adidas', 'hat', 'black', 'men'],
-        description: 'Introducing the Nike Air Max 720 Black Edition 2023 - the pinnacle of style, innovation, and comfort in the world of athletic footwear. Elevate your sneaker game to new heights with these cutting-edge kicks that blend iconic design with the latest technology for an unparalleled walking and running experience.',
+        description: 'Adidas Originals Men Black Hat combines iconic design with comfort. Elevate your style effortlessly with this timeless accessory, perfect for any casual or sporty look',
         sizes: ['S', 'M', 'L', 'XL'],
         color: ['black'],
         thumbImg: 'https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Hat/Thumbnail/hat%20(1).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9IYXQvVGh1bWJuYWlsL2hhdCAoMSkuanBnIiwiaWF0IjoxNzAwOTkwNTUwLCJleHAiOjIwMTYzNTA1NTB9.c5ZFuvKFeOmGzrxnAjQUbzg-byG8Y-uRAGdavyT1Fh8&t=2023-11-26T09%3A22%3A39.028Z',
@@ -387,13 +387,69 @@ const products = [
         cat: 'shoes',
         gender: 'men',
         tag: ['sneakers', 'casual', 'men', 'pu'],
-        description: 'Step out in style with Mast & Harbour Men White Striped Sneakers. These trendy kicks combine classic white with subtle stripes, offering a versatile and fashion-forward look. With comfort and flair, these sneakers are perfect for any casual occasion, adding a touch of modern sophistication to your footwear collection.',
+        description: 'Introducing the Roadster Men Brown Textured PU Sneakers, a perfect blend of style and comfort for the modern man. These trendy kicks are crafted with care, featuring a rich brown hue and textured PU material that adds a touch of sophistication to your casual ensemble.',
         sizes: ['6', '7', '8', '9', '10'],
         color: ['brown'],
-        thumbImg: 'https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Shoes/Thumbnail/shoes%20(1).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9TaG9lcy9UaHVtYm5haWwvc2hvZXMgKDEpLmpwZyIsImlhdCI6MTcwMTI2MTk5NiwiZXhwIjoyMDE2NjIxOTk2fQ.kOUr2rScKeB3DT0oMKgXxVA76L4S0jWrU_MTCSDXW0o&t=2023-11-29T12%3A46%3A45.514Z',
-        productImgs: ['https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Shoes/Men/men_shoes%20(11).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9TaG9lcy9NZW4vbWVuX3Nob2VzICgxMSkuanBnIiwiaWF0IjoxNzAxMjYyMDY0LCJleHAiOjIwMTY2MjIwNjR9.9fsmHVggaC4Vk2EtIXxEUImK8q2OVFH_rzY7InQ-JiY&t=2023-11-29T12%3A47%3A53.033Z', 'https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Shoes/Men/men_shoes%20(10).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9TaG9lcy9NZW4vbWVuX3Nob2VzICgxMCkuanBnIiwiaWF0IjoxNzAxMjYyMDk0LCJleHAiOjIwMTY2MjIwOTR9.a7xXKz8c8aUoRns4J4d6XJ34PCqwKXmewQ6ADFlFSiA&t=2023-11-29T12%3A48%3A23.410Z', 'https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Shoes/Men/men_shoes%20(5).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9TaG9lcy9NZW4vbWVuX3Nob2VzICg1KS5qcGciLCJpYXQiOjE3MDEyNjIxMTcsImV4cCI6MjAxNjYyMjExN30.eoghDjVtJjB_cIw12rRujXNwR9YdD9yo1FDD8u7v5tA&t=2023-11-29T12%3A48%3A46.472Z']
+        thumbImg: 'https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Shoes/Thumbnail/shoes%20(2).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9TaG9lcy9UaHVtYm5haWwvc2hvZXMgKDIpLmpwZyIsImlhdCI6MTcwMTI3NDUxOCwiZXhwIjoyMDE2NjM0NTE4fQ.uOpZoiuyEyKMyz5l69sHpMRptAW3w4PKzxt_yinvsU0&t=2023-11-29T16%3A15%3A23.523Z',
+        productImgs: ['https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Shoes/Men/men_shoes%20(12).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9TaG9lcy9NZW4vbWVuX3Nob2VzICgxMikuanBnIiwiaWF0IjoxNzAxMjc0NjYyLCJleHAiOjIwMTY2MzQ2NjJ9.LPvFHywBWxoNG7aZHv6BieoUlJ1DOSY4I1venngqpYk&t=2023-11-29T16%3A17%3A47.978Z', 'https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Shoes/Men/men_shoes%20(15).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9TaG9lcy9NZW4vbWVuX3Nob2VzICgxNSkuanBnIiwiaWF0IjoxNzAxMjc0NzAyLCJleHAiOjIwMTY2MzQ3MDJ9.-WzZ8Ew45KKptxldqWSgG-yL2kudcRSu3pPtqsXYMcE&t=2023-11-29T16%3A18%3A27.762Z', 'https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Shoes/Men/men_shoes%20(1).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9TaG9lcy9NZW4vbWVuX3Nob2VzICgxKS5qcGciLCJpYXQiOjE3MDEyNzQ3MjcsImV4cCI6MjAxNjYzNDcyN30.iEjfmjnGnxnFsgUkQN0vH8Qbbgqc18BA9sjOayYpb00&t=2023-11-29T16%3A18%3A52.535Z',]
     },
 
+    {
+        id: 29,
+        name: 'Men Mesh Memory Foam Running Lace-Up Non-Marking Shoes',
+        price: 799,
+        cat: 'shoes',
+        gender: 'men',
+        tag: ['running', 'lace-up', 'men', 'mesh', 'memory foam', 'non-marking'],
+        description: 'Experience ultimate comfort and style with these Men Mesh Memory Foam Running Shoes. The lace-up design ensures a secure fit, while the non-marking sole provides durability. The mesh construction enhances breathability, making them perfect for your daily runs.',
+        sizes: ['7', '8', '9', '10', '11'],
+        color: ['red'],
+        thumbImg: 'https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Shoes/Thumbnail/shoes%20(3).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9TaG9lcy9UaHVtYm5haWwvc2hvZXMgKDMpLmpwZyIsImlhdCI6MTcwMTI3NDgzMSwiZXhwIjoyMDE2NjM0ODMxfQ.Um96vAvC_O_kXL0zijJykjnviR58AKRA_-MV37LuHNw&t=2023-11-29T16%3A20%3A36.451Z',
+        productImgs: ['https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Shoes/Men/men_shoes%20(13).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9TaG9lcy9NZW4vbWVuX3Nob2VzICgxMykuanBnIiwiaWF0IjoxNzAxMjc0ODg0LCJleHAiOjIwMTY2MzQ4ODR9.7V-ss2I_LmHO1cEa1s5FJs1q_wO_2KKJr-cL8ZOYy7s&t=2023-11-29T16%3A21%3A29.457Z', 'https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Shoes/Men/men_shoes%20(7).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9TaG9lcy9NZW4vbWVuX3Nob2VzICg3KS5qcGciLCJpYXQiOjE3MDEyNzQ5MTMsImV4cCI6MjAxNjYzNDkxM30.1O2IA2lI_AEsVT_rELxTevJRzk4cJKRFFBYZ8EHSbrY&t=2023-11-29T16%3A21%3A58.990Z', 'https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Shoes/Men/men_shoes%20(8).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9TaG9lcy9NZW4vbWVuX3Nob2VzICg4KS5qcGciLCJpYXQiOjE3MDEyNzQ5NTIsImV4cCI6MjAxNjYzNDk1Mn0.Pcg4MzSF4DVZVEsfKaGvFXJHTJsHO_ga-GT-pYnamQ0&t=2023-11-29T16%3A22%3A37.557Z']
+    },
+
+    {
+        id: 30,
+        name: 'The Lifestyle Co. Women White & Pink Woven Design Comfort Insole Mesh Sneakers',
+        price: 1050,
+        cat: 'shoes',
+        gender: 'women',
+        tag: ['sneakers', 'comfort insole', 'women', 'mesh', 'woven design'],
+        description: 'Step into style and comfort with The Lifestyle Co. Women White & Pink Woven Design Sneakers. The mesh construction and comfort insole provide an ideal blend of fashion and functionality. The woven design adds a trendy touch to your casual look.',
+        sizes: ['5', '6', '7', '8', '9'],
+        color: ['white'],
+        thumbImg: 'https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Shoes/Thumbnail/shoes%20(4).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9TaG9lcy9UaHVtYm5haWwvc2hvZXMgKDQpLmpwZyIsImlhdCI6MTcwMTI3NTA0MSwiZXhwIjoyMDE2NjM1MDQxfQ.zk2VM1CIOMzobhHZx8U4mfYQPuzkTmQ3f0FpWlgCoAM&t=2023-11-29T16%3A24%3A06.805Z',
+        productImgs: ['https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Shoes/Women/women_shoes%20(4).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9TaG9lcy9Xb21lbi93b21lbl9zaG9lcyAoNCkuanBnIiwiaWF0IjoxNzAxMjc1MTQwLCJleHAiOjIwMTY2MzUxNDB9.PdUf-e13UUQ-1ynSrIswg_8TLXiuoG_LOBCA-_NeeAM&t=2023-11-29T16%3A25%3A45.690Z', 'https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Shoes/Women/women_shoes%20(3).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9TaG9lcy9Xb21lbi93b21lbl9zaG9lcyAoMykuanBnIiwiaWF0IjoxNzAxMjc1MTY2LCJleHAiOjIwMTY2MzUxNjZ9.1F2D-IAN_jo1gvRYFoo0zUqP2FaXHabPBUdXJdIUSJs&t=2023-11-29T16%3A26%3A11.442Z']
+    },
+    
+    {
+        id: 31,
+        name: 'Women Beige Heels Sandal',
+        price: 1299,
+        cat: 'shoes',
+        gender: 'women',
+        tag: ['heels', 'sandal', 'women', 'beige'],
+        description: 'Elevate your style with these Women Beige Heels Sandals. The elegant design and comfortable fit make them perfect for both casual outings and special occasions. Step out in confidence and sophistication.',
+        sizes: ['6', '7', '8', '9', '10'],
+        color: ['gray'],
+        thumbImg: 'https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Shoes/Thumbnail/shoes%20(7).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9TaG9lcy9UaHVtYm5haWwvc2hvZXMgKDcpLmpwZyIsImlhdCI6MTcwMTI3NTI3MiwiZXhwIjoyMDE2NjM1MjcyfQ.GDtu3m5eQrNgyNK6VECnkwlcla0um1rBTV9U-Jk6nWw&t=2023-11-29T16%3A27%3A57.221Z',
+        productImgs: ['https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Shoes/Women/women_shoes%20(8).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9TaG9lcy9Xb21lbi93b21lbl9zaG9lcyAoOCkuanBnIiwiaWF0IjoxNzAxMjc1MzY1LCJleHAiOjIwMTY2MzUzNjV9.7mN4KG8MBr7nhRCJOLch8sruCR__Ah9fDxWcsHsFyoU&t=2023-11-29T16%3A29%3A30.849Z', 'https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Shoes/Women/women_shoes%20(7).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9TaG9lcy9Xb21lbi93b21lbl9zaG9lcyAoNykuanBnIiwiaWF0IjoxNzAxMjc1NDgzLCJleHAiOjIwMTY2MzU0ODN9.zF1p-iwvzSHOmX2GQghH_zd5t4V_cgTHfjj28f1-w1k&t=2023-11-29T16%3A31%3A28.504Z', 'https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Shoes/Women/women_shoes%20(6).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9TaG9lcy9Xb21lbi93b21lbl9zaG9lcyAoNikuanBnIiwiaWF0IjoxNzAxMjc1NTA2LCJleHAiOjIwMTY2MzU1MDZ9.JoPjzjnJv_Wg-k6txqO8xvdcFonOpln1OtuLnyjbOeQ&t=2023-11-29T16%3A31%3A51.366Z']
+    },
+    
+    {
+        id: 32,
+        name: 'Men White And Blue Memory Foam Technology Running Shoes',
+        price: 899,
+        cat: 'shoes',
+        gender: 'men',
+        tag: ['running', 'men', 'memory foam technology', 'white', 'blue'],
+        description: 'Enhance your running experience with these Men White And Blue Memory Foam Technology Running Shoes. The advanced memory foam technology provides superior comfort and support. The stylish white and blue combination adds a sporty touch to your look.',
+        sizes: ['7', '8', '9', '10', '11'],
+        color: ['blue'],
+        thumbImg: 'https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Shoes/Thumbnail/shoes%20(6).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9TaG9lcy9UaHVtYm5haWwvc2hvZXMgKDYpLmpwZyIsImlhdCI6MTcwMTI3NTY5NSwiZXhwIjoyMDE2NjM1Njk1fQ.WopuXhipZoYA6czM8_sotikB18pmQ4O3FmUPGEBM5NI&t=2023-11-29T16%3A35%3A00.190Z',
+        productImgs: ['https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Shoes/Men/men_shoes%20(6).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9TaG9lcy9NZW4vbWVuX3Nob2VzICg2KS5qcGciLCJpYXQiOjE3MDEyNzU3NjMsImV4cCI6MjAxNjYzNTc2M30.csQ-XJIemvCSCYjOo4aiKfLmw03iWHk0rCgJrahE164&t=2023-11-29T16%3A36%3A08.616Z', 'https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Shoes/Men/men_shoes%20(9).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9TaG9lcy9NZW4vbWVuX3Nob2VzICg5KS5qcGciLCJpYXQiOjE3MDEyNzU3OTcsImV4cCI6MjAxNjYzNTc5N30.4lRmvzceCHcp48tU4ssGGiRrnRFg_4G6vyA5jqLdO4M&t=2023-11-29T16%3A36%3A42.370Z', 'https://ejvtndbnggmfzqqxlgqu.supabase.co/storage/v1/object/sign/Product_images/Shoes/Men/men_shoes%20(4).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQcm9kdWN0X2ltYWdlcy9TaG9lcy9NZW4vbWVuX3Nob2VzICg0KS5qcGciLCJpYXQiOjE3MDEyNzU4MjIsImV4cCI6MjAxNjYzNTgyMn0.aTB6rVNDMftqwX9pYLjDR7DjLIjsb6biWLHpuPI7bl8&t=2023-11-29T16%3A37%3A07.401Z']
+    }
+    
 
 
 ]
