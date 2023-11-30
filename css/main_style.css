@@ -7,6 +7,7 @@ html,body{
     width: 100vw;
     height: 100vh;
     font-family: 'roboto_medium';
+    overflow-x: hidden;
 }
 
 /* store every font in a folder called fonts and link it to the main_style.css file */
@@ -148,6 +149,7 @@ li a{
     overflow: hidden;
     position: relative;
     border-radius: 30px;
+    width: 100%;
 }
 
 .slider-controls {
@@ -253,7 +255,7 @@ li a{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     align-items: center;
-    margin-top: 20px                                ;
+    margin-top: 20px;
 }
 
 
@@ -268,14 +270,12 @@ li a{
     cursor: pointer;
     border-radius: 10px;
     padding: 20px 0;
-    /* background-color: #f0c22c; */
 }
 
 .categories-item img{
-    width: 250px;
+    width: 100%;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.18);
     border-radius: 10px;
-    justify-content: last baseline;
 }
 
 .categories-item p{
@@ -298,12 +298,53 @@ li a{
 }
 
 @media only screen and (max-width: 670px) {
+    h2{
+        font-size: 30px;
+    }
+    p{
+        font-size: 15px;
+    }
     .m-menu{
         display: block;
     }
     .menu,.r-menu{
         display: none;
     }
+    .categories-item p{
+        display: none;
+    }
+    
+    .slider-content{
+        height: 30vh;
+    }
+    .slider-controls{
+        display: none;
+    }
+    .slider-right{
+        display: none;
+    }
+    .slider-left{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 15px;
+    }
+    .slider-left p{
+        width: 100%;
+    }
+    .slider section{
+        padding: 1rem;
+        gap: 0;
+    }
+
+    /* .slider-left button{
+        width: 100px;
+        height: 35px;
+    } */
+ 
 }
 
 @media only screen and (min-width: 1280px) {
