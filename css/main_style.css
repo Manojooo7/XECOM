@@ -63,17 +63,6 @@ html,body{
     padding: 3rem;
 }
 
-.slider-left button{
-    border: none;
-    outline: none;
-    cursor: pointer;
-    font-family: 'roboto_medium';
-    width: 140px;
-    height: 45px;
-    transition: all 0.3s ease;
-    border-radius: 25px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.13);
-}
 
 button:hover{
     background-color: #000;
@@ -82,7 +71,7 @@ button:hover{
 
 h1{
     font-family: 'roboto_black';
-    font-size: 5vw;
+    font-size: 4rem;
     color: #000;
 }
 h2{
@@ -158,7 +147,7 @@ li a{
     display: flex;
 }
 
-.slider section{
+/* .slider section{
     display: flex;
     width: 100%;
     height: 100%;
@@ -166,22 +155,27 @@ li a{
     justify-content: space-between;
     align-items: center;
     padding: 7rem;
-}
+} */
 
 
 .slider-item{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     justify-content: space-between;
+    /* align-content: center; */
+    align-items: center;
+    padding: 2rem 7rem;
+
 }
 
 .slider-right {
     display: flex;
     justify-content: flex-end;
-}
-
-.slider-right{
     width: 100%;
 }
+
+/* .slider-right{
+} */
 /* .slider-right img{
     width: 100%;
 } */
@@ -201,7 +195,9 @@ li a{
     font-size: 1.5rem;
     font-weight: 500;
     margin-top: 20px;
-
+    border: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
 }
 
 .slider-left button:hover{
@@ -228,11 +224,18 @@ li a{
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
-
-
-
 .brand_container{
     padding: 0 5rem;
+    width: 100%;
+}
+
+.brand_container ul{
+    display: grid;
+    grid-template-columns: repeat(5, minmax(40px, 1fr));
+    justify-items: center;
+}
+
+.brand_container ul li img{
     width: 100%;
 }
 
@@ -285,7 +288,7 @@ li a{
     color: #000;
 }
 
-/* featrured product section */
+/* featured product section */
 
 .featured-product{
     width: 100%;
@@ -347,10 +350,6 @@ li a{
         display: none;
     }
     
-    .slider section{
-        justify-content: center;
-
-    }
     h2{
         font-size: 30px;
     }
@@ -371,19 +370,29 @@ li a{
     .slider-left p{
         width: 100%;
     }
-    .slider section{
+
+    .slider-item{
+        grid-template-columns: 1fr;
         padding: 2rem;
-        gap: 0;
+        width: 100%;
+        /* justify-content: center;
+        justify-items: center;
+        text-align: center; */
+
     }
-    
-    /* .slider-right{
-        display: none;
-    } */
     .slider-left img{
         display: block;
         width: 100%;
         height: 100%;
 
+    }
+
+    .slider-right{
+        margin-top: 40px;
+        justify-content: center;
+    }
+    .slider-right img{
+        width: 90%;
     }
 }
 
@@ -397,6 +406,10 @@ li a{
     .categories-item p{
         display: none;
     }
+
+    .slider-left p{
+        width: 90%;
+    }
     
     .slider-content{
         height: 100vh;
@@ -404,14 +417,25 @@ li a{
     .slider-controls{
         display: none;
     }
-    .slider section{
-        padding: 1rem;
+    h1{
+        font-size: 2.8rem;
+    }
+    .slider-right img{
+        width: 90%;
+    }
+    .slider-left button{
+        width: 150px;
+        height: 60px;
     }
 
-    /* .slider-left button{
-        width: 100px;
-        height: 35px;
-    } */
+    .brands{
+        height: 15vh;
+    }
+
+    .brand_container{
+        padding: 0 3rem;
+    }
+    
  
 }
 
