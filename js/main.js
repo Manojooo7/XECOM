@@ -80,9 +80,9 @@ const getFeaturedProducts = async () => {
 window.addEventListener('DOMContentLoaded', async () => {
     const featuredproducts = await getFeaturedProducts();
     // console.log(...featuredproducts);
-    featuredproducts.forEach((products)=>{
+    featuredproducts.forEach((products) => {
         // destructuring datas
-        const {id,name,price,thumbImg} = products;
+        const { id, name, price, thumbImg } = products;
 
         // creating a div
         const featuredProduct = document.createElement('div');
@@ -90,14 +90,14 @@ window.addEventListener('DOMContentLoaded', async () => {
         featuredProduct.classList.add('f_product');
 
         // creating the featured product card HTML elemts name are same as the raw html elmets name before 
-        featuredProduct.innerHTML=`
+        featuredProduct.innerHTML = `
         <div class="fproduct-img">
             <img src=${thumbImg}>
+            <button>Buy Now</button>
         </div>
         <div class="featured_product_info">
             <h3>${name}</h3>
             <p>₹${price}</p>
-            <button>Buy Now</button>
         </div>
         `
         document.querySelector('.featured_container').appendChild(featuredProduct)
