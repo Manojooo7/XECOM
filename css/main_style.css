@@ -64,11 +64,6 @@ html,body{
 }
 
 
-button:hover{
-    background-color: #000;
-    color: #fff;
-}
-
 h1{
     font-family: 'roboto_black';
     font-size: 4rem;
@@ -115,11 +110,62 @@ li a{
     transition: all 0.3s ease;
     cursor: pointer;
 }
-.r-menu ul li a{
+button i{
     font-size: 1.5rem;
 }
 
+/* .search{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+
+.search input {
+    height: 30px;
+    padding: 20px;
+    width: 200px;
+    outline: none;
+    border-radius: 30px;
+} */
+
+.search-container {
+    position: relative;
+    display: flex;
+}
+
+.search-input {
+    padding: 10px;
+    border: 1px solid #FE9156;
+    border-radius: 5px 0 0 5px;
+    width: 200px;
+}
+
+.search-container input{
+    outline: none;
+}
+.search-container i {
+    color: #fff;
+}
+
+.search-button {
+    background-color: #FE9156;
+    color: white;
+    border: 1px solid #FE9156;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+/* Style for the search icon inside the button */
+.search-button i {
+    padding: 10px;
+}
+
+
 .r-menu i{
+    font-size: 1.5rem;
+}
+.micon{
     color: #000;
 }
 
@@ -128,7 +174,21 @@ li a{
     list-style: none;
     font-size: 1.5rem;
 }
+.menu {
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+}
 
+
+.menu li a{
+    color: #000;
+    transition: 0.3s ease;
+}
+
+.menu li a:hover{
+    color: #FE9156;
+}
 
 
 /* slider */
