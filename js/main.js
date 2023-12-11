@@ -93,7 +93,7 @@ window.addEventListener('DOMContentLoaded', async () => {
         featuredProduct.innerHTML = `
         <div class="fproduct-img">
             <img src=${thumbImg}>
-            <button>Buy Now</button>
+           <i class="ri-eye-line"></i>
         </div>
         <div class="featured_product_info">
             <h3>${name}</h3>
