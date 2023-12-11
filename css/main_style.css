@@ -416,6 +416,39 @@ button i{
 }
 
 
+/* offers */
+
+.offer_container{
+    height: 70vh;
+    width: 100%;
+    background-color: #EDEF89;
+    border-radius: 30px;
+    overflow: hidden;
+    padding: 0 3rem;
+}
+.offer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-items: stretch;
+    column-gap: 7rem;
+
+}
+
+.offer_img{
+    display: flex;
+    justify-content: center;
+}
+.offer_details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+.offer_img img{
+    width: 130%;
+}
 
 /* media screen */
 
