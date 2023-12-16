@@ -528,20 +528,33 @@ button i{
         height: 70vh;
     }
     .categories-ul {
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: 1fr;
-        grid-template-areas: "item1 item2 item3 item4";
-        height: 50%;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas: "item1 item2" "item3 item4";
+        height: 70%;
     }
     .featured_container{
         grid-template-columns: repeat(2, 1fr);
+    }
+    .offer{
+        grid-template-columns: 1fr;
+    }
+    .offer_container{
+        height: 100vh;
+    }
+    .offer_details {
+        margin-top: 3rem;
+        gap: 10px;
+    }
+    .padding{
+        padding: 2rem 3rem;
     }
 }
 
 @media only screen and (max-width: 670px) {
     
     .padding{
-        padding: 1.5vw 3vw;
+        padding: 2rem 3rem;
     }
     .m-menu{
         display: block;
