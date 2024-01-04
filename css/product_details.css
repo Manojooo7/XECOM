@@ -1,0 +1,24 @@
+
+.product_details_container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.product_thumb_img{
+    width: 15rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product_details_img{
+    width: 70%;
+    height: 50%;
+    overflow: hidden;
+}
+
+
+
+.thumb_img{
+    width: 80%;
+}
