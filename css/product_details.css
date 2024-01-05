@@ -3,22 +3,47 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
+
+}
+
+.product_details_left {
+    width: 50vw;
+}
+
+.product_details_img {
+    height: 40vw;
+    overflow: hidden;
+}
+
+.product_details_img img {
+    width: 80%;
 }
 
 .product_thumb_img{
+    margin-top: 30px;
     width: 15rem;
     display: flex;
     justify-content: space-between;
 }
 
-.product_details_img{
-    width: 70%;
-    height: 50%;
-    overflow: hidden;
-}
-
-
-
 .thumb_img{
     width: 80%;
+}
+
+.product_details_right_top{
+    gap: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.add_to_cart_container{
+    margin-top: 20px;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+input{
+    width: 3rem;
+    text-align: center;
 }
