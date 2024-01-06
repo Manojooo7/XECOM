@@ -8,7 +8,7 @@ const productImageContainer = document.querySelector('.product_details_img');
 const productThumbImageContainer = document.querySelector('.product_thumb_img');
 
 
- async function gettingProductData() {
+async function gettingProductData() {
     const urlPrams = new URLSearchParams(window.location.search);
     const productIDString = urlPrams.get("product");
     const productID = parseInt(productIDString, 10);
@@ -25,7 +25,6 @@ const productThumbImageContainer = document.querySelector('.product_thumb_img');
 
     const product = await getProducts();
     const { name, description, price, color, sizes, cat, productImgs } = product[0];
-    console.log(name);
 
     // product title
     productName.textContent = name;
@@ -35,45 +34,55 @@ const productThumbImageContainer = document.querySelector('.product_thumb_img');
     producPrice.textContent = `₹ ${price}`;
 
     // product color
-    for(let i = 0; i < color.length; i++ ){
+    for (let i = 0; i < color.length; i++) {
         const colors = document.createElement('span');
         colors.style.backgroundColor = color[i];
         productColor.appendChild(colors);
     };
 
     // product sizes
-    for(let i = 0; i < sizes.length; i++ ){
+    for (let i = 0; i < sizes.length; i++) {
         const size = document.createElement('span');
         size.textContent = sizes[i];
         productSizeContainer.appendChild(size)
     };
 
     // product images
-    
-    for(let i = 0; i < productImgs.length; i++ ){
+
+    for (let i = 0; i < productImgs.length; i++) {
         const imgs = document.createElement('img');
+        imgs.classList.add('main_img')
         imgs.setAttribute('src', productImgs[i]);
-        imgs.setAttribute('alt', `${cat} ${i+1}`);
+        imgs.setAttribute('alt', `${cat} ${i + 1}`);
         productImageContainer.appendChild(imgs)
     };
 
     // product thumb images
 
-    for(let i = 0; i < productImgs.length; i++ ){
+    for (let i = 0; i < productImgs.length; i++) {
         const thumbImgItem = document.createElement('div');
         thumbImgItem.classList.add('thumb_img_item')
-        const thumbimgData = document.createElement('a')
-        thumbimgData.setAttribute('href', '#')
-        thumbimgData.setAttribute('data-id', [i])
         const thumnbImg = document.createElement('img')
         thumnbImg.classList.add('thumb_img')
         thumnbImg.setAttribute('src', productImgs[i]);
-        thumnbImg.setAttribute('alt', `${cat} ${i+1}`);
-        thumbImgItem.appendChild(thumbimgData)
-        thumbimgData.appendChild(thumnbImg)
+        thumnbImg.setAttribute('alt', `${cat} ${i + 1}`);
+        thumbImgItem.appendChild(thumnbImg);
 
         productThumbImageContainer.appendChild(thumbImgItem);
     };
+
+    // gallery img slider 
+
+    const mainImg = document.getElementsByClassName('main_img')
+    const galleryImg = document.querySelectorAll('.thumb_img')
+
+    console.log(galleryImg);
+
+    galleryImg.forEach((img) => {
+        img.addEventListener('click', () => {
+            mainImg[0].src = img.src
+        })
+    })
 
 }
 window.onload = gettingProductData()

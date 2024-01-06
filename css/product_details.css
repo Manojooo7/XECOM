@@ -31,6 +31,7 @@ h3{
 
 .thumb_img{
     width: 80%;
+    cursor: pointer;
 }
 
 .product_details_right_top{
