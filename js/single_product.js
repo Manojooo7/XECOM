@@ -1,8 +1,14 @@
 
-const productName = document.getElementsByClassName('.title')
-const productDescription = document.getElementsByClassName('.description')
+const productName = document.querySelector('.title');
+const productDescription = document.querySelector('.description');
+const producPrice = document.querySelector('.price');
+const productColor = document.querySelector('.product_color');
+const productSizeContainer = document.querySelector('.product_size_container');
+const productImageContainer = document.querySelector('.product_details_img');
+const productThumbImageContainer = document.querySelector('.product_thumb_img');
 
-function gettingProductData() {
+
+ async function gettingProductData() {
     const urlPrams = new URLSearchParams(window.location.search);
     const productIDString = urlPrams.get("product");
     const productID = parseInt(productIDString, 10);
@@ -17,13 +23,57 @@ function gettingProductData() {
         return data;
     }
 
-    const product = getProducts();
-    const { name, description } = product
-    console.log(product);
-    productName.textContent = name
-    productDescription.textContent = description
+    const product = await getProducts();
+    const { name, description, price, color, sizes, cat, productImgs } = product[0];
+    console.log(name);
 
+    // product title
+    productName.textContent = name;
+    // Product description
+    productDescription.textContent = description;
+    // product Price
+    producPrice.textContent = `₹ ${price}`;
+
+    // product color
+    for(let i = 0; i < color.length; i++ ){
+        const colors = document.createElement('span');
+        colors.style.backgroundColor = color[i];
+        productColor.appendChild(colors);
+    };
+
+    // product sizes
+    for(let i = 0; i < sizes.length; i++ ){
+        const size = document.createElement('span');
+        size.textContent = sizes[i];
+        productSizeContainer.appendChild(size)
+    };
+
+    // product images
+    
+    for(let i = 0; i < productImgs.length; i++ ){
+        const imgs = document.createElement('img');
+        imgs.setAttribute('src', productImgs[i]);
+        imgs.setAttribute('alt', `${cat} ${i+1}`);
+        productImageContainer.appendChild(imgs)
+    };
+
+    // product thumb images
+
+    for(let i = 0; i < productImgs.length; i++ ){
+        const thumbImgItem = document.createElement('div');
+        thumbImgItem.classList.add('thumb_img_item')
+        const thumbimgData = document.createElement('a')
+        thumbimgData.setAttribute('href', '#')
+        thumbimgData.setAttribute('data-id', [i])
+        const thumnbImg = document.createElement('img')
+        thumnbImg.classList.add('thumb_img')
+        thumnbImg.setAttribute('src', productImgs[i]);
+        thumnbImg.setAttribute('alt', `${cat} ${i+1}`);
+        thumbImgItem.appendChild(thumbimgData)
+        thumbimgData.appendChild(thumnbImg)
+
+        productThumbImageContainer.appendChild(thumbImgItem);
+    };
 
 }
-
-gettingProductData()
+window.onload = gettingProductData()
