@@ -10,6 +10,9 @@
   "name": "xecom",
   "version": "1.0.0",
   "main": "server.js",
+  "engines": {
+    "version": "14.x"
+  },
   "type": "module",
   "repository": {
     "type": "git",
