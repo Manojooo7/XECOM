@@ -1,7 +1,7 @@
 import express from 'express';
 
 const app = express();
-const port = 5000;
+const port = process.env.PORT || 5000;
 
 // Serve static files from the 'public' directory
 app.use(express.static('public'));
