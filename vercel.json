@@ -1,6 +1,22 @@
 {
-    "routes": [
-        {"src": "/(.*)", 
-        "dest": "/public/html"}
-    ]
+  "version": 2,
+  "builds": [
+    {
+      "src": "server.js",
+      "use": "@now/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/public/html/(.*)",
+      "dest": "/public/html/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/server.js"
+    }
+  ],
+  "env": {
+    "NODE_ENV": "production"
+  }
 }
