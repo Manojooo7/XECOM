@@ -1,6 +1,9 @@
 import express from 'express';
+import dotenv from 'dotenv';
+dotenv.config();
+
 const app = express();
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 8080;
 
 // Serve static files from the 'public' directory
 app.use(express.static('public'));
