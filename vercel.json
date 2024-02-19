@@ -4,11 +4,7 @@
     {
       "handle": "filesystem",
       "src": "/public/html/(.*)",
-      "dest": "/public/html/$1"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/public/html/$1"
+      "dest": "./server.js"
     }
   ]
 }
