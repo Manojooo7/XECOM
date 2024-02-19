@@ -9,8 +9,15 @@
   ],
   "routes": [
     {
+      "src": "/public/html(.*)",
+      "dest": "/public/$1"
+    },
+    {
       "src": "/(.*)",
-      "dest": "./server.js"
+      "dest": "/server.js"
     }
-  ]
+  ],
+  "env": {
+    "PORT": 8080
+  }
 }
