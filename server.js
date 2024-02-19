@@ -13,12 +13,12 @@ app.use(express.json());
 
 // Define a route for the homepage
 app.get("/", (req, res) => {
-    res.sendFile("index.html", { root: "public/html" });
+    res.sendFile("index.html", { root: "public" });
 });
 
 //define the route for single product page
 app.get("/product_detail.html", (req, res) => {
-    res.sendFile("product_detail.html", { root: "public/html" });
+    res.sendFile("product_detail.html", { root: "public" });
 });
 
 app.listen(port, () => {
