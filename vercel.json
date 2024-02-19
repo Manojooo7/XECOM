@@ -1,7 +1,14 @@
 {
-    "version": 2,
-    "routes": [{
-        "src": "public/html/(.*)",
-        "dest": "./server.js"
-    }]
+  "version": 2,
+  "routes": [
+    {
+      "handle": "filesystem",
+      "src": "/public/html/(.*)",
+      "dest": "/public/html/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/public/html/$1"
+    }
+  ]
 }
