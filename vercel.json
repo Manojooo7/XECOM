@@ -4,6 +4,10 @@
     {
       "src": "/public/html/(.*)",
       "dest": "./server.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "./server.js"
     }
   ]
 }
