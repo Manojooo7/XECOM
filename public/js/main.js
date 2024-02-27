@@ -9,15 +9,15 @@ const getFeaturedProducts = async () => {
 }
 
 
-// genereting featured products
+// showing featured products cards
 
 async function loadFeaturedProducts() {
     try {
         const featuredProducts = await getFeaturedProducts();
 
-        // Your code to handle or display featuredProducts should go here
+        //code to handle or display featuredProducts should go here
         featuredProducts.forEach((products) => {
-            // destructuring datas
+            // destructuring data
             const { id, name, price, thumbImg } = products;
 
             // creating a div
