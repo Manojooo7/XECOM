@@ -1,6 +1,6 @@
 
 // getting featured products
-const featuredProductsUrl = 'https://ejvtndbnggmfzqqxlgqu.supabase.co/rest/v1/product?featured=eq.true&select=id,name,price,thumbImg&apikey=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVqdnRuZGJuZ2dtZnpxcXhsZ3F1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDA5ODg5ODEsImV4cCI6MjAxNjU2NDk4MX0.8-oUZN-TtFLdjBRRmoQMoNirKtdnPgrLzzS2pew3Sec&AuthorizationBearer%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVqdnRuZGJuZ2dtZnpxcXhsZ3F1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDA5ODg5ODEsImV4cCI6MjAxNjU2NDk4MX0.8-oUZN-TtFLdjBRRmoQMoNirKtdnPgrLzzS2pew3Sec'
+const featuredProductsUrl = 'https://ejvtndbnggmfzqqxlgqu.supabase.co/rest/v1/product?featured=eq.true&select=id,name,price,cat,thumbImg,ratings&apikey=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVqdnRuZGJuZ2dtZnpxcXhsZ3F1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDA5ODg5ODEsImV4cCI6MjAxNjU2NDk4MX0.8-oUZN-TtFLdjBRRmoQMoNirKtdnPgrLzzS2pew3Sec&AuthorizationBearer%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVqdnRuZGJuZ2dtZnpxcXhsZ3F1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDA5ODg5ODEsImV4cCI6MjAxNjU2NDk4MX0.8-oUZN-TtFLdjBRRmoQMoNirKtdnPgrLzzS2pew3Sec'
 
 const getFeaturedProducts = async () => {
     const response = await fetch(featuredProductsUrl);
@@ -18,7 +18,7 @@ async function loadFeaturedProducts() {
         //code to handle or display featuredProducts should go here
         featuredProducts.forEach((products) => {
             // destructuring data
-            const { id, name, price, thumbImg } = products;
+            const { id, name, price, thumbImg, cat, ratings } = products;
 
             // creating a div
             const featuredProduct = document.createElement('div');
@@ -32,8 +32,14 @@ async function loadFeaturedProducts() {
                <i class="ri-eye-line"></i>
             </div>
             <div class="featured_product_info">
-                <h3>${name}</h3>
-                <p>₹${price}</p>
+                <div class="f-product-row1">
+                    <h3 class="card_categories">${cat}</h3>
+                    <h3 class="ratings">${ratings}</h3>
+                </div>
+                <div class="f-product-row2">
+                    <p class="product_title">${name}</p>
+                    <p class="price">₹${price}</p>
+                </div>
             </div>
             `
             document.querySelector('.featured_container').appendChild(featuredProduct)

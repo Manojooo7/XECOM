@@ -353,9 +353,11 @@ button i{
 
 .f_product{
     display: flex;
+    height: 60vh;
     flex-direction: column;
-    background-color: #f1f1f1;
+    background-color: #f1f1f17c;
     border: 1px solid #D9D9D9;
+    border-radius: 10.3px;
     transition:0.3s cubic-bezier(0.88, 0.05, 0.15, 1.15);
     cursor: pointer;
 
@@ -410,19 +412,15 @@ button i{
 }
 
 
-
 .card_categories, .ratings{
     color: var(--theme_color1);
-    font-size: 1.4rem;
+    font-size: 1rem;
     font-weight: bold;
 }
 .product_title, .price{
     font-family: 'roboto_regular';
     font-size: 1.2rem;
 }
-
-
-
 
 /* offers */
 
