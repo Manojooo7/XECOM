@@ -20,6 +20,17 @@ async function loadFeaturedProducts() {
             // destructuring data
             const { id, name, price, thumbImg, cat, ratings } = products;
 
+            const maxWords = 5;
+            function truncateTitle(title, maxWords) {
+                const words = title.split(' ');
+                if (words.length > maxWords) {
+                    return words.slice(0, maxWords).join(' ') + '...';
+                }
+                return title;
+            }
+
+            const shortTitle = truncateTitle(name, maxWords);
+
             // creating a div
             const featuredProduct = document.createElement('div');
             // assigning a class to the div 'f_product' which we already styled
@@ -33,11 +44,11 @@ async function loadFeaturedProducts() {
             </div>
             <div class="featured_product_info">
                 <div class="f-product-row1">
-                    <h3 class="card_categories">${cat}</h3>
+                    <h3 class="card_categories" alt = "Product Categories">${cat}</h3>
                     <h3 class="ratings">${ratings}</h3>
                 </div>
                 <div class="f-product-row2">
-                    <p class="product_title">${name}</p>
+                    <p class="product_title" alt="${name}" title="${name}">${shortTitle}</p>
                     <p class="price">₹${price}</p>
                 </div>
             </div>
@@ -58,7 +69,7 @@ async function loadFeaturedProducts() {
 function redirectToProductDetailPage(id) {
     const productDetailsURL = `product_detail.html?product=${id}`
     console.log(productDetailsURL);
-    window.location = productDetailsURL
+    window.open(productDetailsURL, '_blank')
 }
 
 
